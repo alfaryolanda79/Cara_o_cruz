@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gira la moneda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>JUEGO GIRA LA MONEDA</h1>
+    </header>
+    
+    <main>
+        <h2>¿Eres afortunado?<br> Prueba tu suerte a cara o cruz</h2>
+        <img src="images/euro-155597_640.png" alt="moneda">
+        <button onclick="lanzarMoneda()">Lanzar la moneda</button>
+        <button onclick="reiniciarJuego()">Reiniciar</button>
+        <div class="container">                        
+            <div class="result">
+              Resultado cara: <span id="caraCount">0</span>
+            </div>            
+            <div class="result">
+              Resultado cruz: <span id="cruzCount">0</span>
+            </div>            
+        </div>        
+    </main>
+    <footer>
+        <p>Gracias por jugar, si acertaste más de 3 seguidas ¡Corre a echar La Primitiva!</p>
+    </footer>  
+
+    <script src="main.js"></script>
+</body>
+</html>
